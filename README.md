@@ -6,7 +6,7 @@ Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
 
 * Arthur Erico Coelho Costa
 * Lilith Fernandes Patrocinio
-* Nome completo do aluno 3
+* Luis Otavio de Paula
 * Nome completo do aluno 4
 
 ## Professores responsáveis
