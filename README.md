@@ -1,6 +1,6 @@
 # Nome do projeto
 
-Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
+O projeto consiste em uma plataforma de avaliação de filmes, séries e mídia audiovisual de cinema e plataformas de streaming, em que o usuário avaliaria com estrelas e daria uma opnião sobre o conteúdo consumido, permitindo que outras pessoas possoas possam pesquisar e ver informações sinceras sobre a mídia, sendo uma avaliação de fã para fã.
 
 ## Alunos integrantes da equipe
 
