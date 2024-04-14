@@ -111,7 +111,6 @@ Wireframes são protótipos das telas da aplicação usados em design de interfa
 
 **Links Úteis**:
 
-![artbreeder-portraits_sg2-2024-03-09T19_50_50 955Z](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/166145996/edc60b2f-36af-4982-a0c0-c36f407a629f)
 
 
 - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
