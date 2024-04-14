@@ -17,58 +17,39 @@ O template para o site é estruturado e permite que a equipe evolua a documenta�
 # Orientações gerais
 
 Esta seção traz explicações breves sobre o conjunto de artefatos que precisam ser incluídos na documentação do projeto com uma conjunto de links importantes para que se entenda como criar cada coisa. 
+INTRODUÇÃO 
+ A sociedade do cinema sempre teve uma legião de críticos, pois assim como toda forma de arte, passa por fases e revoluções que influenciam e são influenciadas por aqueles que a consomem. 
+ Devido ao pouco interesse e difícil acesso ao cinema, as críticas só tinham relevância seguida de status e qualificações, por volta do final dos anos 20 e 30 com a adição de cor e som nos filmes o interesse no cinema se elevou, apesar da vontade de consumir, continuava sendo um passatempo caro.
+ Foi somente com a solidificação dos meios digitais para a transmissão, como as plataformas de streaming, que então  devido a acessibilidade foi permitido que houvesse um efervescente crescimento no consumo, unido isso temos a sessão de comentários adicionadas a essas plataformas que incentivaram o público a expor a sua opinião cada vez mais sobre o que consomem.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-**Links Úteis**:
-
-- [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-- [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-- [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+ Apesar de terem alguns sites conhecidos para a classificação de filmes e séries, poucos têm a visão de tornar a plataforma uma rede social. Além disso, é perceptível uma preferência dos usuários pelo uso dos aparelhos móveis, entretanto, vemos uma concentração desse tipo de site com a interface pensada apenas para os computadores, evidenciando a necessidade de atender o público mobile.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+ O objetivo deste trabalho é criar uma plataforma onde os usuários criarão um perfil, poderão avaliar filmes e salvar como favoritos.
+ Alguns objetivos do site são:
+ Mostrar filmes por categoria, além de uma nota geral de todos os filmes;
+ Deixar os usuários cientes dos filmes que estão bombando, sendo uma fonte confiável para a escolha de qual filme assistir em seguida.
+  Os filmes avaliados deverão ficar salvos em seu perfil, assim outros usuários podem pesquisar por seu nome na aba comunidade e encontrar seus filmes favoritos;
+ Nota: nem todos os objetivos podem ser compridos no tempo, logo estas são apenas ideias, o que podemos nos comprometer a fazer é o que colocarmos em requisitos.
 
-**Links Úteis**:
-
-- [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+ Visamos que a plataforma atenda o público mobile que está com falta deste tipo de ferramenta, ademais o site permitirá que os usuários adicionem filmes e séries desde que preencham algumas informações de segurança, logo, o site poderá alcançar todo tipo de público, criando uma grande comunidade multifacetada e unir culturas, como os animes, mangás, e novelas coreanas.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-**Links Úteis**:
-
-- [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
-
-**Links Úteis**:
-
-- [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-- [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+ Homens e mulheres entre 18 e 40 anos que tenham algum tempo livre para ver filmes, portanto é esperado que sejam formados e que trabalhem poucas horas, ou de home office, usuários de sites famosos de streaming, solteiros e casados.
 
 ## Personas
+![WhatsApp Image 2024-04-14 at 18 37 46](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/166145996/256f2d89-f304-40cb-b7a6-0db250c1e299)
+![WhatsApp Image 2024-04-14 at 18 37 57](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/166145996/f7e4a768-807c-4da4-842d-7de44f77400b)
+![lucas](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/166145996/75fb3e50-261a-4fb7-a24c-67d323c70797)
 
-Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que você deve ser enumerar e descrever precisamente e de forma personalizada todos os principais envolvidos com a solução almeja.
-
-**Links Úteis**:
-
-- [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-- [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-- [Rock Content](https://rockcontent.com/blog/personas/)
-- [Criar personas (Hotmart)](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
 
 ## Histórias de Usuários
 
@@ -80,20 +61,30 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
 ## Requisitos
+RF-01
+Os filmes devem ser listados na página do catálogo
+LILITH
 
-Os requisitos de um projeto são classificados em dois grupos:
+RF-02
+Os filmes devem ser filtrados pela barra de pesquisa.
+LILITH
+RN-01 LIlith: A tela principal deve mostrar pelo menos 10 filmes. E carregar mais filmes conforme se desce a página
 
-- [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
-  correspondem a uma funcionalidade que deve estar presente na plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade, desempenho, confiabilidade, segurança ou outro (ex: suporte a dispositivos iOS e Android).
+RF-03
+Botão de login 
+ARTHUR
 
-Lembre-se que cada requisito deve corresponder à uma e somente uma característica alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+RF-04
+Botão de Registro
+ARTHUR
 
-**Links Úteis**:
+RF-05
+O usuário pode mudar o nome do perfil
+ARTHUR ERICO
 
-- [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-- [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+RF-06
+O usuário pode acessar outras configurações na aba “configurações”
+ARTHUR ERICO
 
 ## User Flow
 
@@ -107,27 +98,44 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ## Wireframes
 
-Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante ao layout de elementos fundamentais na interface.
+Tela de Catálogo:
 
-**Links Úteis**:
+ Esta tela apresenta uma barra fixa no top contendo o botão de encaminhamento para o perfil, e a barra de pesquisa. No conteúdo da página é apresentado um catálogo de filmes com a imagem, o título, a nota, e um ícone indicando se o filme está favoritado. No final, temos outra barra fixa que apresenta os botões de encaminhamento para as telas Catálogo, categoria, favoritos e mais.
+![tela1](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/166145996/a54cc7c9-772a-4449-9216-5a086ab15817)
+![tela2](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/166145996/2a6cc0a5-26d7-4cd9-aed7-1f22ae6bf3e4)
 
+![tela login](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/166145996/eb8f9f24-6f99-456b-97b9-a9661a6bd704)
 
-
-- [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-- [Figma](https://www.figma.com/)
-- [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-- [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
 
 ## Gestão de Projetos
 
- Nesta parte do documento, você deve apresentar  o processo de trabalho baseado nas metodologias ágeis, a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a gestão de configuração do projeto via GitHub.
+3.1 - Relação de ambiente de trabalho
 
-Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+Ambiente
+Plataforma
+Link de Acesso
+Repositório de código fonte
+GitHub
+https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes
+Documentos do projeto
+Google Docs
+ Sprint 1-Mocat: https://docs.google.com/document/d/1usRkDDA_V0MjjvtBrP-KQX5iwgAw-Qpf_YiGuyjoHp0/edit?usp=sharing
+Projeto de Interface e  Wireframes
+Figma
+https://www.figma.com/file/h03C71RoNDO0UQ1iueS5ie/WireFrame?type=design&mode=design&t=3Ri4SGIVaZjOUGaA-0
+Gerenciamento do Projeto
+        Discord
+https://discord.gg/NdUkf43fA9
 
-**Links Úteis**:
 
-- [Sobre Projects - GitHub Docs](https://docs.github.com/pt/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
-- [Gestão de projetos com GitHub | balta.io](https://balta.io/blog/gestao-de-projetos-com-github)
-- [(460) GitHub Projects - YouTube](https://www.youtube.com/playlist?list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H)
-- [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-- [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+
+A equipe está organizada da seguinte maneira:
+
+* Lilith Jan: Responsável pela tela principal e tela dos filmes.
+Construção da logo.
+* Arthur Faria Ottoni: Responsável pela tela de login e registro.
+Nome do projeto.
+* Arthur Erico: Responsável pela tela do usuário.
+Design da logo.
+* Vinícius:
+* Luís:
