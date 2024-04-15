@@ -158,5 +158,7 @@ Design da logo.
 
 # Referências
 https://www.figma.com
+
 https://github.com
+
 https://www.canva.com
