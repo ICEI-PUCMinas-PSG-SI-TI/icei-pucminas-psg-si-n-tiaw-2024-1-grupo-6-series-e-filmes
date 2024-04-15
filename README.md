@@ -8,7 +8,7 @@ O projeto consiste em uma plataforma de avaliação de filmes, séries e mídia 
 * Lilith Fernandes Patrocinio
 * Arthur Faria Ottoni
 * Vinícius Morais Monteiro de Resende
-* Madson
+* Madson Amora Ferreira
 * Luís
 
 ## Professores responsáveis
