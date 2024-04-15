@@ -117,6 +117,10 @@ Tela de Catálogo:
 ![Tela Detalhe Filme](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/126835261/7610c083-e23d-407d-90ec-29bbacb4c6ca)
 
 
+![Sobre nós](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/126835261/7a565a82-8499-4834-8375-c224a550a6eb)
+
+
+![Fórum](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/126835261/f4868edc-ba75-474d-ab23-ffa4643bd3f4)
 
 
 ![tela login](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/166145996/eb8f9f24-6f99-456b-97b9-a9661a6bd704)
