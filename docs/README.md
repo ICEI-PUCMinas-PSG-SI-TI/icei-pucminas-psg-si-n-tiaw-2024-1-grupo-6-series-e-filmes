@@ -113,7 +113,9 @@ Tela de Catálogo:
  Esta tela apresenta uma barra fixa no top contendo o botão de encaminhamento para o perfil, e a barra de pesquisa. No conteúdo da página é apresentado um catálogo de filmes com a imagem, o título, a nota, e um ícone indicando se o filme está favoritado. No final, temos outra barra fixa que apresenta os botões de encaminhamento para as telas Catálogo, categoria, favoritos e mais.
 ![tela1](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/166145996/a54cc7c9-772a-4449-9216-5a086ab15817)
 ![tela2](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/166145996/2a6cc0a5-26d7-4cd9-aed7-1f22ae6bf3e4)
-![image](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/126835261/e4714c0f-8bbd-4188-a68b-0ae184d3cf7c)
+![Tela Detalhe Filme](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/126835261/7610c083-e23d-407d-90ec-29bbacb4c6ca)
+
+
 
 
 ![tela login](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/166145996/eb8f9f24-6f99-456b-97b9-a9661a6bd704)
@@ -139,7 +141,8 @@ Gerenciamento do Projeto
         Discord
 https://discord.gg/NdUkf43fA9
 
-
+# Slides
+https://www.canva.com/design/DAGCbS-iKUQ/rGDSX2MCQxKOVH0IfuFLkA/edit
 
 A equipe está organizada da seguinte maneira:
 
