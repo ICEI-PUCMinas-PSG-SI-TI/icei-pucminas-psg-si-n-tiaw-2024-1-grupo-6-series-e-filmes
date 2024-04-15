@@ -159,7 +159,7 @@ Construção da logo.
 Nome do projeto.
 * Arthur Erico: Responsável pela tela do usuário.
 Design da logo.
-* Vinícius:
+* Vinícius: responsavel pela tela de comunidade
 * Luís: responsavel pela tela dos filmes
 
 # Referências
