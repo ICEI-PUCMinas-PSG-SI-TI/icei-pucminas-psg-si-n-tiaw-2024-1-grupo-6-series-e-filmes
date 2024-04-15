@@ -147,14 +147,14 @@ https://www.canva.com/design/DAGCbS-iKUQ/rGDSX2MCQxKOVH0IfuFLkA/edit
 
 A equipe está organizada da seguinte maneira:
 
-* Lilith Jan: Responsável pela tela principal e tela dos filmes.
+* Lilith Jan: Responsável pela tela principal.
 Construção da logo.
 * Arthur Faria Ottoni: Responsável pela tela de login e registro.
 Nome do projeto.
 * Arthur Erico: Responsável pela tela do usuário.
 Design da logo.
 * Vinícius:
-* Luís:
+* Luís: responsavel pela tela dos filmes
 
 # Referências
 https://www.figma.com
