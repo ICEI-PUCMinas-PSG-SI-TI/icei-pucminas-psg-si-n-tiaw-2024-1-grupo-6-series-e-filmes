@@ -113,10 +113,11 @@ Tela de Catálogo:
  Esta tela apresenta uma barra fixa no top contendo o botão de encaminhamento para o perfil, e a barra de pesquisa. No conteúdo da página é apresentado um catálogo de filmes com a imagem, o título, a nota, e um ícone indicando se o filme está favoritado. No final, temos outra barra fixa que apresenta os botões de encaminhamento para as telas Catálogo, categoria, favoritos e mais.
 ![Tela Principal](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/126835261/112fb01a-4ccd-41df-bd7e-f6ba86749b09)
 
-![Tela Login](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/126835261/1da37853-23bd-4bfc-8959-75cafd130831)
+![Tela Login](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/126835261/7dccfcf2-b80a-4487-9765-d9748f7676ee)
 
 
-![Tela Detalhe Filme](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/126835261/7610c083-e23d-407d-90ec-29bbacb4c6ca)
+![Detalhe filme](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/126835261/e8815b29-1d62-4818-ba70-6cf51fcf959d)
+
 
 
 ![Sobre nós](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/126835261/7a565a82-8499-4834-8375-c224a550a6eb)
