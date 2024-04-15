@@ -53,7 +53,12 @@ INTRODUÇÃO
 
 ## Histórias de Usuários
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+Lucas Henrique -- Grupos ativos -- Para encontrar pessoas com interesses parecidos com os meus
+Lucas Henrique -- Poder discutir sobre meus filmes prediletos -- Divulgar minhas opiniões
+Neide -- Facilidade para encontrar avaliações sinceras e curtas sobre filmes -- Poder saber se algum filme é interessante e vale o tempo de duração
+Neide -- Saber o que está famoso e popular -- Poder assistir com os filhos
+Carlos Pereira -- encontrar uma comunidade que esteja assistindo filmes infantis -- Encontrar novos filmes para ver com meu filho e minha esposa
+Carlos Pereira -- recomendar o site para os pais dos meus alunos -- A escola tenha uma rede boa de filmes educativos
 
 **Links Úteis**:
 
@@ -103,6 +108,8 @@ Tela de Catálogo:
  Esta tela apresenta uma barra fixa no top contendo o botão de encaminhamento para o perfil, e a barra de pesquisa. No conteúdo da página é apresentado um catálogo de filmes com a imagem, o título, a nota, e um ícone indicando se o filme está favoritado. No final, temos outra barra fixa que apresenta os botões de encaminhamento para as telas Catálogo, categoria, favoritos e mais.
 ![tela1](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/166145996/a54cc7c9-772a-4449-9216-5a086ab15817)
 ![tela2](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/166145996/2a6cc0a5-26d7-4cd9-aed7-1f22ae6bf3e4)
+![image](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/126835261/e4714c0f-8bbd-4188-a68b-0ae184d3cf7c)
+
 
 ![tela login](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/166145996/eb8f9f24-6f99-456b-97b9-a9661a6bd704)
 
