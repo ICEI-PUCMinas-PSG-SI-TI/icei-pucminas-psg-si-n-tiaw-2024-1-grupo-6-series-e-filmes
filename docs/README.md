@@ -155,3 +155,8 @@ Nome do projeto.
 Design da logo.
 * Vinícius:
 * Luís:
+
+# Referências
+https://www.figma.com
+https://github.com
+https://www.canva.com
