@@ -111,8 +111,10 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 Tela de Catálogo:
 
  Esta tela apresenta uma barra fixa no top contendo o botão de encaminhamento para o perfil, e a barra de pesquisa. No conteúdo da página é apresentado um catálogo de filmes com a imagem, o título, a nota, e um ícone indicando se o filme está favoritado. No final, temos outra barra fixa que apresenta os botões de encaminhamento para as telas Catálogo, categoria, favoritos e mais.
-![tela1](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/166145996/a54cc7c9-772a-4449-9216-5a086ab15817)
-![tela2](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/166145996/2a6cc0a5-26d7-4cd9-aed7-1f22ae6bf3e4)
+![Tela Principal](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/126835261/112fb01a-4ccd-41df-bd7e-f6ba86749b09)
+
+![Tela Login](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/126835261/1da37853-23bd-4bfc-8959-75cafd130831)
+
 
 ![Tela Detalhe Filme](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/126835261/7610c083-e23d-407d-90ec-29bbacb4c6ca)
 
