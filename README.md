@@ -9,7 +9,7 @@ O projeto consiste em uma plataforma de avaliação de filmes, séries e mídia 
 * Arthur Faria Ottoni
 * Vinícius Morais Monteiro de Resende
 * Madson Amora Ferreira
-* Luís
+* Luís Otávio de Paula
 
 ## Professores responsáveis
 
