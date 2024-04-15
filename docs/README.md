@@ -54,10 +54,15 @@ INTRODUÇÃO
 ## Histórias de Usuários
 
 Lucas Henrique -- Grupos ativos -- Para encontrar pessoas com interesses parecidos com os meus
+
 Lucas Henrique -- Poder discutir sobre meus filmes prediletos -- Divulgar minhas opiniões
+
 Neide -- Facilidade para encontrar avaliações sinceras e curtas sobre filmes -- Poder saber se algum filme é interessante e vale o tempo de duração
+
 Neide -- Saber o que está famoso e popular -- Poder assistir com os filhos
+
 Carlos Pereira -- encontrar uma comunidade que esteja assistindo filmes infantis -- Encontrar novos filmes para ver com meu filho e minha esposa
+
 Carlos Pereira -- recomendar o site para os pais dos meus alunos -- A escola tenha uma rede boa de filmes educativos
 
 **Links Úteis**:
