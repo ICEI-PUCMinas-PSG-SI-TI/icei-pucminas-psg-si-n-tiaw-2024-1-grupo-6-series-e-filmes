@@ -125,7 +125,8 @@ Tela de Catálogo:
 ![Fórum](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/126835261/f4868edc-ba75-474d-ab23-ffa4643bd3f4)
 
 
-![tela login](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/166145996/eb8f9f24-6f99-456b-97b9-a9661a6bd704)
+![Perfil Usuario](https://github.com/ICEI-PUCMinas-PSG-SI-TI/icei-pucminas-psg-si-n-tiaw-2024-1-grupo-6-series-e-filmes/assets/126835261/a8605975-df1f-48b2-afff-88d8e6207661)
+
 
 
 ## Gestão de Projetos
