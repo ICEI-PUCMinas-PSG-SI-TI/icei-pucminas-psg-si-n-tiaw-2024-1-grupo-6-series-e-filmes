@@ -7,7 +7,7 @@ O projeto consiste em uma plataforma de avaliação de filmes, séries e mídia 
 * Arthur Erico Coelho Costa
 * Lilith Fernandes Patrocinio
 * Arthur Faria Ottoni 
-* Nome completo do aluno 4
+* Madson Amora Ferreira
 
 ## Professores responsáveis
 
