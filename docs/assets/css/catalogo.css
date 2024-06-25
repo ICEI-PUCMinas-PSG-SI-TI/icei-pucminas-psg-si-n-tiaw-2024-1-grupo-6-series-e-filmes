@@ -1,0 +1,209 @@
+:root{
+ --background-color: #131313; 
+ --text-color: #ffffff;
+ --icon-geral-cor: #EF1600;
+ --icon1-cor: #EF1600;
+ --icon2-cor: #ED4A02;
+ --icon3-cor: #EC8F03;
+ --icon4-cor: #CF205D;
+}
+
+
+body{
+    margin: 56px 0 55px 0;
+    background: var(--background-color); 
+}
+html{
+    background: var(--background-color); 
+}
+/* Inicio topnav*/
+/* Esconde o checkbox */
+input[type="checkbox"] {
+    display: none;
+}
+
+/* Ajusta a aparência da label que contém a imagem */
+label[for="theme"] img {
+    cursor: pointer; 
+}
+
+/* Opções adicionais para a aparência quando o checkbox está marcado */
+input[type="checkbox"]:checked + label[for="theme"] img {
+    opacity: 0.7; /* Exemplo de alteração visual quando marcado */
+    /* Adicione outras alterações visuais conforme necessário */
+}
+.buscar_box{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.buscar_box .lupa_buscar{
+    min-width: 80px;
+    min-height: 80px;
+}
+.topnav img{
+    width: 60px;
+    flex-shrink: 0; 
+    padding-top: 12px;
+    padding-left: 12px;
+}
+.profile-image{
+    width: 35px !important;
+    height: 35px !important;
+    flex-shrink: 0; 
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 0px !important;
+    border-radius: 100%;
+}
+.topnav{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+.topnav i{
+    color: var(--icon-geral-cor);
+    font-size: 24px;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 54px;
+    flex-shrink: 0; 
+    border-bottom: 5px solid var(--icon-geral-cor); background: var(--background-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+}
+.po{
+    display: flex;
+}
+/* fim topnav*/
+/* Inicio botnav*/
+
+.botnav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+    height: 55px;
+    box-shadow: 0 0 3px var(--icon-geral-cor);
+    display: flex;
+    overflow-x: auto;
+    background-color: var(--background-color);
+}
+.botnav i{
+    font-size: 24px;
+}
+
+.link__active {
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+flex-grow: 1;
+min-width: 50px;
+overflow: hidden;
+white-space:nowrap;
+font-family: sans-serif;
+font-size: 13px;
+text-decoration: none;
+-webkit-tap-highlight-color: transparent;
+color: var(--text-color);
+}
+.fa-map{
+   color: var(--icon1-cor);
+}
+.fa-users-line{
+    color: var(--icon2-cor);
+}
+.fa-star{
+   color: var(--icon3-cor);
+}
+.fa-ellipsis{
+   color: var(--icon4-cor);
+}
+/* fim botnav*/
+/* Inicio Destaque*/
+.item_destaque{
+    padding: 7px;
+    margin-right: 45px;
+    margin-left: 45px;
+    margin-top: 16px;
+    margin-bottom: 14px;
+    background-color: var(--icon-geral-cor);
+}
+.item_destaque img{
+    width: 200px;
+    height: 500px;
+    object-fit: contain; 
+    flex-shrink: 0; 
+}
+.carousel-indicators{
+    z-index: 0;
+}
+.carousel {
+    position: relative; 
+    z-index: 0; 
+}
+.icon_dest{
+    color: var(--icon-geral-cor);
+    font-size: 30px;
+}
+
+/* Fim Destaque*/
+/* Inicio lista*/
+main{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.movie{
+    background-color: var(--background-color);
+    display:flex;
+    width: 100%;
+    flex-wrap: wrap;
+    border-width: 12c;
+}
+.movie{
+    width: 144px;
+    height: 160px;
+    flex-shrink: 0; 
+    background-color: var(--background-color);
+    margin-left: 45px;
+    margin-bottom: 13px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.movie img{
+    width: 144px;
+    height: 142px; 
+}
+.movie a{
+    text-decoration: none;
+}
+.movie h3{
+    color: var(--text-color);
+    background-color: var(--icon-geral-cor);
+    width: 144px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
+}
+/* fim lista*/
