@@ -1,0 +1,73 @@
+.profile-container {
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid var(--icon-geral-cor);
+  mix-blend-mode: lighten;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+.profile-container .profile-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+.profile-container .profile-name {
+  color: var(--text-color);
+  font-size: 30px;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+.profile-favorite {
+  color: var(--icon-geral-cor);
+  font-size: 20px;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+.profile-favorite a {
+  text-decoration: none;
+  color: var(--icon-geral-cor);
+}
+
+.profile-image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-image-button {
+  background-color: var(--icon-geral-cor);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.profile-image-input-container {
+  display: none;
+  margin-top: 10px;
+}
+
+.profile-image-input-container input {
+  width: 300px;
+  padding: 8px;
+  margin-right: 10px;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.profile-image-input-container button {
+  background-color: var(--icon3-cor);
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.profile-image-button:hover,
+.profile-image-input-container button:hover {
+  opacity: 0.9;
+}
