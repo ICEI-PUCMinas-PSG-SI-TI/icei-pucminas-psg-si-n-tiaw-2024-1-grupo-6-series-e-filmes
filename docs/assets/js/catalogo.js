@@ -47,7 +47,7 @@ function showMovies(data) {
         if (index === 0) carouselItem.classList.add("active");
 
         carouselItem.innerHTML = `
-            <a href="busca.html?id=${id}" target="_blank">
+            <a href="detalhes.html?id=${id}">
                 <img src="${IMG_URL + poster_path}" class="d-block w-100" alt="${title}">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>${title}</h5>
@@ -68,7 +68,7 @@ function showOtherMovies(data) {
         const movieEl = document.createElement('div');
         movieEl.classList.add('movie');
         movieEl.innerHTML = `
-            <a href="busca.html?id=${id}"><img src="${IMG_URL + poster_path}" alt="${title}"></a>
+            <a href="detalhes.html?id=${id}"><img src="${IMG_URL + poster_path}" alt="${title}"></a>
             <div class="title"><a href="busca.html?id=${id}"><h3>${title}</h3></a></div>
         `;
         main.appendChild(movieEl);

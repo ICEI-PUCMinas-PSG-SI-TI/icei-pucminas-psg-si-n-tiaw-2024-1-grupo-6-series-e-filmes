@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+}
+.principal{
+    background-color: #131313;
+}
+img{
+    max-width: 100%;
+}
+div{
+    /*border: 5px solid rgb(35, 37, 36);*/
+    color: #fff;
+}
+.container {
+    padding: 20px;
+}
+/*---Header-----------------------------------------------------------------*/
+#logo img{
+    max-width: 25%;
+    border-radius: 80%;
+}
+#pesquisar{
+    text-align: right;
+    font-size: 1.6rem;
+}
+#usuario{
+    text-align: right;
+    font-size: 1.6rem;
+}
+header hr{
+    width: 100%;
+    border: 8px solid #EF1600;
+    border-radius: 8px;
+}
+/*---Main-----------------------------------------------------------------*/
+main .row{
+    margin: 20px;
+}
+main #favoritoFilme{
+    text-align: center;
+    font-size: 1.6rem;
+}
+main #favoritoFilme h1{
+    display: inline;
+    color: #ec8f03;
+}
+main .col{
+    max-width: 50%;
+}
+
+/*---Footer-----------------------------------------------------------------*/
+footer a{
+    text-decoration: none;
+}
+footer #catalogo{
+    text-align: center;
+    color: #EF1600;
+}
+footer #comunidade{
+    text-align: center;
+    color: #ED4A02;
+}
+footer #favoritos{
+    text-align: center;
+    color: #ec8f03;
+}
+footer #mais{
+    text-align: center;
+    color: #EF1600;
+}
+/*--------------------------------------------------------------------*/

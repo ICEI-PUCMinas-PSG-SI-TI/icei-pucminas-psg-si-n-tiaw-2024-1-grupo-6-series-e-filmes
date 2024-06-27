@@ -40,7 +40,7 @@ function entrar() {
   });
 
   if (usuario.value === userValid.user && senha.value === userValid.senha) {
-    window.location.href = "perfil.html";
+    window.location.href = "catalogo.html";
     let token =
       Math.random().toString(16).substr(2) +
       Math.random().toString(16).substr(2);

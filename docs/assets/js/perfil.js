@@ -5,7 +5,9 @@ if (localStorage.getItem("token") == null) {
 
 function sair() {
   localStorage.removeItem("token");
+  localStorage.removeItem("userLogado");
   window.location.href = "login.html";
+
 }
 
 let userLogado = JSON.parse(localStorage.getItem("userLogado"));

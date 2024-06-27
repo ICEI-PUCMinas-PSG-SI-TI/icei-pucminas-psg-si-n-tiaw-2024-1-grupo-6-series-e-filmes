@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const posterPath = movie.poster_path ? `https://image.tmdb.org/t/p/w500${movie.poster_path}` : 'https://via.placeholder.com/500x750?text=No+Image';
                 
                 const imgLink = document.createElement('a');
-                imgLink.href = `busca.html?id=${movie.id}`;
+                imgLink.href = `detalhes.html?id=${movie.id}`;
 
                 const img = document.createElement('img');
                 img.src = posterPath;
