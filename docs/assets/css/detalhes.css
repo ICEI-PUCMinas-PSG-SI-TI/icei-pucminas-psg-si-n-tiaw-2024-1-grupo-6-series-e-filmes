@@ -31,7 +31,17 @@ div {
   text-align: right;
   font-size: 1.6rem;
 }
-
+@media (min-width: 768px) {
+  .container, .container-md, .container-sm {
+      max-width: none !important;
+  }
+}
+@media (min-width: 576px)
+{
+  .container, .container-md, .container-sm{
+      max-width: none !important; 
+  }
+}
 /*---Main-----------------------------------------------------------------*/
 main .row {
   margin: 20px;

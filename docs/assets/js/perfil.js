@@ -16,7 +16,7 @@ if (userLogado) {
   document.getElementById("profile-image").src = userLogado.image;
   document.getElementById("profile-name").innerText = userLogado.user;
   document.getElementById("profile-favorite").innerHTML =
-    '<a href="#"><i class="fa-solid fa-star"></i>Favoritos</a>';
+    '<a href="favoritos.html"><i class="fa-solid fa-star"></i>Favoritos</a>';
 } else {
   alert("Nenhum usuário logado encontrado");
   window.location.href = "login.html";
