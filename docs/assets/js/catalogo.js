@@ -79,5 +79,5 @@ if (userLogado) {
     document.getElementById('profile-image').src = userLogado.image;
 } else {
     alert('Nenhum usuário logado encontrado');
-    window.location.href = 'login.html';
+    window.location.href = 'index.html';
 }

@@ -16,7 +16,20 @@ document.addEventListener("DOMContentLoaded", () => {
         "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiZjIxNTk1ODI0MzVjOWI2MzVjODQyMjFmMWU2N2ExOSIsIm5iZiI6MTcxOTI0MzA2Mi45MzI5MjQsInN1YiI6IjY2NzM4Y2M5MTJiZDFkMTE3YzRlYWFhNiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.-2iVRu-BctvHUKY_5Q7fJdzWYidKfL2V-JllInhO0TI",
     },
   };
+  // verifica se o JSON já existe no LocalStorage
+  if (localStorage.getItem(localStorageKey) === null) {
+    // JSON não existe, então cria
+    const listaFavoritos = {
+      "001": ["tt0848228", "tt0816692", "tt1245526"]
+    };
 
+    // converte o objeto para string JSON e salva no LocalStorage
+    localStorage.setItem(localStorageKey, JSON.stringify(listaFavoritos));
+    console.log('JSON criado e salvo no LocalStorage.');
+  } else {
+    // JSON já existe
+    console.log('JSON já existe no LocalStorage.');
+  }
   if (movieId) {
     //preencher icone favorito-----------------------------------------------------
     const favoritosButton = document.getElementById("favoriteButton");
@@ -82,8 +95,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // chamada para atores do filme-----------------------------------------------------
     fetch(
       "https://api.themoviedb.org/3/movie/" +
-        movieId +
-        "/credits?language=pt-BR",
+      movieId +
+      "/credits?language=pt-BR",
       options
     )
       .then((response) => response.json())
@@ -126,8 +139,8 @@ document.addEventListener("DOMContentLoaded", () => {
     //fetch("https://api.themoviedb.org/3/movie/"+movieId+"/reviews?language=en-US&page=1", options)
     fetch(
       "https://api.themoviedb.org/3/movie/" +
-        movieId +
-        "/reviews?language=pt-BR&page=1",
+      movieId +
+      "/reviews?language=pt-BR&page=1",
       options
     )
       .then((response) => response.json())
@@ -312,8 +325,8 @@ function fecharModal() {
 }
 let userLogado = JSON.parse(localStorage.getItem('userLogado'));
 if (userLogado) {
-    document.getElementById('profile-image').src = userLogado.image;
+  document.getElementById('profile-image').src = userLogado.image;
 } else {
-    alert('Nenhum usuário logado encontrado');
-    window.location.href = 'login.html';
+  alert('Nenhum usuário logado encontrado');
+  window.location.href = 'index.html';
 }
