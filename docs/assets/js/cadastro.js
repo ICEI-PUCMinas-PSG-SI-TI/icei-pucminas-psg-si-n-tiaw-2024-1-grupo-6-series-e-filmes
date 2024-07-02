@@ -76,7 +76,7 @@ function cadastrar() {
     msgError.setAttribute("style", "display: none");
     msgSuccess.innerHTML = "<strong>Usuario Cadastrado</strong>";
     setTimeout(() => {}, 3000);
-    window.location.href = "login.html";
+    window.location.href = "index.html";
   } else {
     msgError.setAttribute("style", "display: block");
     msgSuccess.setAttribute("style", "display: none");
