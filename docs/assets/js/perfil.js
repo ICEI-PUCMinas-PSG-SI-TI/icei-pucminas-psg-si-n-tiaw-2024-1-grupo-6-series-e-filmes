@@ -19,7 +19,7 @@ if (userLogado) {
     '<a href="favoritos.html"><i class="fa-solid fa-star"></i>Favoritos</a>';
 } else {
   alert("Nenhum usuário logado encontrado");
-  window.location.href = "login.html";
+  window.location.href = "index.html";
 }
 
 document.getElementById('profile-image-button').addEventListener('click', function() {
