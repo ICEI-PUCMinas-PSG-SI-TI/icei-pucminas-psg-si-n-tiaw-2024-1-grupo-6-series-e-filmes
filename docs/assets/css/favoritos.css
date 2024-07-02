@@ -4,8 +4,12 @@ body {
     padding: 0;
     font-size: 1.2rem;
 }
+html{
+    background-color: #131313;
+}
 .principal{
     background-color: #131313;
+    margin: 0;
 }
 img{
     max-width: 100%;
@@ -15,7 +19,7 @@ div{
     color: #fff;
 }
 .container {
-    padding: 20px;
+    padding-top: 41px;
 }
 /*---Header-----------------------------------------------------------------*/
 #logo img{
@@ -30,10 +34,16 @@ div{
     text-align: right;
     font-size: 1.6rem;
 }
-header hr{
-    width: 100%;
-    border: 8px solid #EF1600;
-    border-radius: 8px;
+@media (min-width: 768px) {
+    .container, .container-md, .container-sm {
+        max-width: none !important;
+    }
+}
+@media (min-width: 576px)
+{
+    .container, .container-md, .container-sm{
+        max-width: none !important; 
+    }
 }
 /*---Main-----------------------------------------------------------------*/
 main .row{
@@ -51,24 +61,3 @@ main .col{
     max-width: 50%;
 }
 
-/*---Footer-----------------------------------------------------------------*/
-footer a{
-    text-decoration: none;
-}
-footer #catalogo{
-    text-align: center;
-    color: #EF1600;
-}
-footer #comunidade{
-    text-align: center;
-    color: #ED4A02;
-}
-footer #favoritos{
-    text-align: center;
-    color: #ec8f03;
-}
-footer #mais{
-    text-align: center;
-    color: #EF1600;
-}
-/*--------------------------------------------------------------------*/

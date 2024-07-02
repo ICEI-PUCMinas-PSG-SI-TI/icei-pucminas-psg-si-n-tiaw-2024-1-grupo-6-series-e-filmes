@@ -5,28 +5,36 @@ const options = {
     Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiZjIxNTk1ODI0MzVjOWI2MzVjODQyMjFmMWU2N2ExOSIsIm5iZiI6MTcxOTI0MzA2Mi45MzI5MjQsInN1YiI6IjY2NzM4Y2M5MTJiZDFkMTE3YzRlYWFhNiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.-2iVRu-BctvHUKY_5Q7fJdzWYidKfL2V-JllInhO0TI'
     }
 };
+// Nome da chave no LocalStorage
+const localStorageKey = 'meuJson';
 
 //carrega lista de favoritos do arquivo .json
 async function init(){
+    
+    // Recuperar o JSON do LocalStorage
+    const jsonString = localStorage.getItem(localStorageKey);
 
-    fetch('favoritos.json')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Erro ao buscar o arquivo JSON: ' + response.statusText);
-            }
-            return response.json();  // Converte a resposta para JSON
-        })
-        .then(data => {
-            const imdbIDs = data["001"];
-            buscarFilme(imdbIDs);
-            //console.log(data);  // Exibe os dados no console
-        })
-        .catch(error => {
-            console.error('Erro:', error);
-        });
+    if (jsonString !== null) {
+        // Convertendo a string JSON de volta para um objeto
+        const dados = JSON.parse(jsonString);
+
+        const lista = dados["001"];
+        if(lista.length > 0){
+            lista.forEach(id => console.log(id));
+            buscarFilme(lista);
+        }else{
+            const filmesCards = document.getElementById('cards');
+            filmesCards.innerHTML = '<h3>Não há favoritos!!!</h3>'; // Limpar conteúdo
+        }
+        // Aqui você pode manipular os dados conforme necessário
+        console.log(dados);
+    } else {
+        console.log('JSON não encontrado no LocalStorage.');
+    }
+
 }
 
-//busca dados de um filme
+//busca dados de um filme-----------------------------------------------------
 function buscarFilme(imdbIDs) {
     const filmesCards = document.getElementById('cards');
     filmesCards.innerHTML = ''; // Limpar conteúdo
@@ -45,7 +53,7 @@ function buscarFilme(imdbIDs) {
     });
 }
 
-// cria card do filme
+// cria card do filme-----------------------------------------------------
 function criarCard(movie) {
     const col = document.createElement('div');
     col.className = 'col';
@@ -70,7 +78,7 @@ function criarCard(movie) {
     const date = new Date(movie.release_date);
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
     const datePT = date.toLocaleDateString('pt-BR', options);
-    cardText.textContent = `Year: ${datePT}`;
+    cardText.textContent = `Data de lançamento: ${datePT}`;
 
     const cardFooter = document.createElement('div');
     cardFooter.className = 'card-footer';
@@ -96,3 +104,10 @@ function criarCard(movie) {
 }
 
 window.onload = init();
+let userLogado = JSON.parse(localStorage.getItem('userLogado'));
+if (userLogado) {
+    document.getElementById('profile-image').src = userLogado.image;
+} else {
+    alert('Nenhum usuário logado encontrado');
+    window.location.href = 'login.html';
+}
